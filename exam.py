@@ -7,3 +7,6 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 import pandas as pd
 exam=pd.DataFrame(exam_data)
 print(exam)
+
+#added
+print(exam['score'].max())
